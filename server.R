@@ -1,4 +1,7 @@
-source('backbone.R')
+#getting the required R file from github repository
+library("RCurl")
+source("https://raw.githubusercontent.com/talegari/clustering-tagged-data/master/backbone.R")
+
 shinyServer(function(input, output) {
       csvData <- reactive({
         switch(input$choosedata,

@@ -26,7 +26,7 @@ shinyUI(fluidPage(
                    label = "Elbow Sensitivity", 
                    max=20,min=1,value=15),
       p("--------------------------------------------------------------------------"),
-      a("code on github",href="https://github.com/talegari/analyzing-tagged-data")
+      a("code on github",href="https://github.com/talegari/clustering-tagged-data")
 ),
     mainPanel(
      
@@ -51,14 +51,14 @@ shinyUI(fluidPage(
       "** The purpose is to find the clusters in tagged data. The data displayed gives the format of tagged data",
       a('(Download CSV file)',href='http://google.com'),
       br(),
-      p("** You may explore the default data or upload your datain the above format. There is a radio button to swap the "),code("uploaded")," and ",code("default")," data. The default data is tagging modern Indian cities based on historical, geograhical and climatic perspectives.",
+      p("** You may explore the default data or upload your datain the above format. There is a radio button to swap the "),code("uploaded")," and ",code("default")," data. The default data examines some characteristics of animals. Please do not take this data seriously.",
       p("** Tagged data comprises of objects and their tags. "),code("To cluster")," radio button gives the option to cluster either objects or tags.",
       p(),
       "** The number of cluster is defaults to 0, where the app selects the the nunber of clusters by",a("Elbow criterion",href="https://en.wikipedia.org/wiki/Determining_the_number_of_clusters_in_a_data_set#The_Elbow_Method"),
       ".When number of clusters is set to 0, 'Elbow Sensitivity' may be changed. 'Elbow Sensitivity' measures percentages change in the ratio of 'between sum of squares' and 'total sum of squares' to decide the optimal number of clusters. Lower 'Elbow Sensitivity' usually results in higher number of clusters.",
       p("** Number of tags/objects not contained in the other is used as a distance measure for clustering objects/tags."),
       p("------------------------------------------------------------------------------------------------------------------------------------------------"),
-      "Code for the App is hosted on ",a("github",href="https://github.com/talegari/analyzing-tagged-data"),
+      "Code for the App is hosted on ",a("github",href="https://github.com/talegari/clustering-tagged-data"),
       br(),
       "App is based on",a("analyzing tagged data project",href="https://github.com/talegari/analyzing-tagged-data"),
       p("------------------------------------------------------------------------------------------------------------------------------------------------")
