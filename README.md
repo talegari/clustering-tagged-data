@@ -13,4 +13,6 @@ Author: [Srikanth K S (talegari)](https://github.com/talegari)
     
 * In case of an issue, gmail the author at `sri.teach`.
 
+**Update 1**: 'Weight'ed version implemented. Implementation details can be found in 'How does it work' section of the [web interface](https://talegari.shinyapps.io/ctd_shinyapps).
+
 ---- 
